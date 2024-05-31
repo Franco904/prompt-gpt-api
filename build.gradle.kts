@@ -28,6 +28,12 @@ dependencies {
 	// Request/Response serialization
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 
+	// HTTP
+	implementation("com.squareup.okhttp3:okhttp:4.12.0")
+
+	// Dev
+	implementation("io.github.cdimascio:dotenv-kotlin:6.4.1")
+
 	// Testing
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
